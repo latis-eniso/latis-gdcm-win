@@ -29,6 +29,7 @@ setup_args = dict(
     packages=[],
     data_files=[
         ('lib/site-packages/gdcmlib', glob("gdcm/gdcmlib/*")),
+        ('lib/site-packages/gdcmlib/XML', glob("gdcm/XML/*")),
         ('lib/site-packages', ["gdcm/gdcm.py"])
     ],
 )

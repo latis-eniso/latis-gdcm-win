@@ -1,6 +1,11 @@
+
+#  important we must in this file !!! 
+*.py[cod]
+!/gdcm/gdcmlib/_gdcmswig.pyd
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
